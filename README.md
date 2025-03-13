@@ -57,7 +57,7 @@
 >     }<br>
 > }<br>
 
-## You may think how can I use `let`, `const` and `var` inside of function? here are the example:
+## You may think how can I use `let`, `const` and `var` inside of function? <br>Here are the example:
 
 1. let (Block-scoped)
 Best for variables that change value.
