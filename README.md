@@ -1,6 +1,6 @@
 # JavaScript Snippet Module
 #### The JavaScript Snippet Module contains snippet code that must be inside a module. It includes various syntax elements, statements, loops, and more.
-#### I have provided a JavaScript code file where the snippet is added.
+#### I have provided a JavaScript code file where the snippet is added. You only need to copy/paste the code.
 
 # **REMEMBER: Always read comments to understand how to code works.**
 
