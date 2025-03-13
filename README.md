@@ -5,59 +5,104 @@
 # **REMEMBER: Always read comments to understand how to code works.**
 
 > // Variables
-> let variableName; // Declare a variable<br>
-> const CONSTANT_NAME = "value"; // Constant value<br>
-> <br>
-> // Functions<br>
-> function exampleFunction(param1, param2) {<br>
->     // Logic goes here<br>
-> }<br>
-> <br>
-> // Arrow Functions<br>
-> const arrowFunction = (param1, param2) => {<br>
->     // Logic goes here<br>
-> };<br>
-> <br>
-> // Control Flow<br>
-> if (true) {<br>
->     // If block<br>
-> } else {<br>
->     // Else block<br>
-> }<br>
-> <br>
-> // Loops<br>
-> for (let i = 0; i < 10; i++) {<br>
->     // Loop logic<br>
-> }<br>
-> <br>
-> // Classes<br>
-> class ExampleClass {<br>
->     constructor(param) {<br>
->         this.param = param;<br>
->     }<br>
-> <br>
+> let variableName; // Declare a variable  
+> const CONSTANT_NAME = "value"; // Constant value  
+>   
+> // Functions  
+
+> function exampleFunction(param1, param2) {  
+    
+>     // Logic goes here  
+
+> }  
+
+>   
+
+> // Arrow Functions  
+
+> const arrowFunction = (param1, param2) => {  
+    
+>     // Logic goes here  
+
+> };  
+
+>   
+
+> // Control Flow  
+
+> if (true) {  
+    
+>     // If block  
+
+> } else {  
+    
+>     // Else block  
+
+> }  
+
+>   
+
+> // Loops  
+
+> for (let i = 0; i < 10; i++) {  
+    
+>     // Loop logic  
+
+> }  
+
+>   
+
+> // Classes  
+
+> class ExampleClass {  
+    
+>     constructor(param) {  
+    
+>         this.param = param;  
+
+>     }  
+
+>   
+
 >     methodName() {
 >         // Method logic
 >     }
-> }<br>
-> 
-> // Modules (Export/Import)<br>
-> export function exportedFunction() {<br>
->     // Logic goes here<br>
-> }<br>
-><br>
-> // Async/Await Example<br>
-> async function asyncFunction() {<br>
->     try {<br>
->         const result = await fetch('https://api.example.com/data');<br>
->         const data = await result.json();<br>
->         // Logic with data<br>
->     } catch (error) {<br>
->         console.error(error);<br>
->     }<br>
-> }<br>
+> }  
 
-## You may think how can I use `let`, `const` and `var` inside of function? <br>Here are the example:
+> 
+> // Modules (Export/Import)  
+
+> export function exportedFunction() {  
+    
+>     // Logic goes here  
+
+> }  
+
+>  
+
+> // Async/Await Example  
+
+> async function asyncFunction() {  
+    
+>     try {  
+    
+>         const result = await fetch('https://api.example.com/data');  
+
+>         const data = await result.json();  
+
+>         // Logic with data  
+
+>     } catch (error) {  
+    
+>         console.error(error);  
+
+>     }  
+
+> }  
+
+
+## You may think how can I use `let`, `const` and `var` inside of function?   
+Here are the example:
 
 1. let (Block-scoped)
 Best for variables that change value.
